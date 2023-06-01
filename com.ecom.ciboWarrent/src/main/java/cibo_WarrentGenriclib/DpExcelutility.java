@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class DpExcelutility {
 	
-	
+	// get multipale data from excel sheet
 public  Object[][] readDatafromExcel(String sheetName) throws IOException {
 		
 		FileInputStream  fis=new FileInputStream("./src/test/resources/restaurantdata.xlsx");
